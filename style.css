@@ -1,0 +1,268 @@
+
+ body {
+     margin: 0;
+     
+ 
+  
+ }
+.col-2{
+    position: fixed;
+    background: linear-gradient(rgb(18, 177, 177),rgb(10, 107, 101));
+    
+        top: 0;
+        bottom: 0;
+        height: 100vh;
+       
+}
+
+.col-10{
+    margin-left: 16%;
+        height: 100vh;
+        overflow-y: auto;
+        
+    
+}
+.col-2 img{
+    width: 150px;
+    margin-top: 170px;
+    border-radius: 50%;
+    margin-left: 47px;
+    border: 4px solid bisque;
+    box-shadow: 0px 0px 20px black;
+}
+.col-2 img:hover{
+    box-shadow: 0px 0px 10px beige;
+    scale: 1.05;
+}
+.col-2 nav{
+    margin-top: 20px;
+   text-align: center;
+   margin-right: 15px;
+   color: white;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: small;
+   
+}
+.col-2 nav ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+.col-2 nav ul li{
+    padding: 5px;
+}
+.col-2 nav ul li a:hover{
+    color: rgb(240, 185, 118);
+    scale: 1.7;
+}    
+.col-2 nav ul li:hover {
+    color: bisque;
+    scale: 1.3;
+}
+.col-10 {
+    background-color:rgb(10, 91, 91) ;
+
+    
+}
+#home{
+    margin-top: 250px;
+    margin-left: 60px;
+}
+#home button{
+    color: rgb(10, 91, 91);
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#home button:hover{
+    background-color:yellow ;
+    scale: 1.07;
+}
+.h{
+    background-color: rgb(10, 91, 91);
+    margin-left: 15.4%;
+        height: 100vh;
+        overflow-y: auto;
+       
+        
+}
+.h h1{
+    margin-left: 130px;
+    color: white;
+}
+.h h6{
+    margin-left: 130px;
+    margin-top: 150px;
+    color:rgb(241, 241, 157) ;
+}
+#services .container {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.h .card-title i{
+    background-color:bisque;
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+.h .card-title i:hover{
+    scale: 1.01;
+}
+.card-body p{
+    color: white;
+}
+.card{
+    background-color: rgb(51, 185, 185);
+    border: 2px solid rgb(51, 185, 185) ;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    text-align: justify;
+}
+.h .card:hover{
+    scale: 1.09;
+    box-shadow: 0 0 5px rgb(16, 16, 16);
+    background-color: rgb(16, 152, 152);
+}
+
+.work .card {
+    margin-left: 50px;
+   
+}
+.work{
+    background-color: rgb(10, 91, 91);
+        margin-left: 15.4%;
+       
+        
+}
+.work h6{
+    margin-left: 50px;
+        margin-top: 50px;
+        color: rgb(241, 241, 157);
+}
+.work h1{
+    margin-left: 50px;
+        color: white;     
+}
+
+.work .card:hover{
+    scale: 1.03;
+    background-color: rgb(16, 152, 152);
+}
+.work .card {
+    margin-left: 50px;
+
+}
+
+.about {
+    background-color: rgb(10, 91, 91);
+    margin-left: 15.4%;
+
+
+}
+
+.about h6 {
+    margin-left: 100px;
+    color: rgb(241, 241, 157);
+    
+}
+
+.about h1 {
+    margin-left: 100px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+}
+.about h3 {
+    margin-left: 50px;
+    color: white;
+}
+.fade-up{
+    opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 1s ease, transform 1s ease;
+}
+.e-heading{
+    display: flex;
+    margin-bottom: 10px;
+   
+}
+.e-heading1{
+    margin-left: 50px;
+}
+.e-heading2{
+    margin-left:370px;
+}
+.about h5{
+    color: white;
+}
+.about .card{
+    margin-left: 20px;
+}
+.about .card{
+    margin-left: 100px;
+   
+}
+.about h6{
+    margin-top: 50px;
+}
+.about .card:hover{
+    scale: 1.04;
+    box-shadow: 0 0 10px black;
+    background-color: rgb(16, 152, 152);
+}
+.review {
+    background-color: rgb(10, 91, 91);
+    margin-left: 15.4%;
+}
+
+.review h6 {
+    margin-left: 70px;
+    color: rgb(241, 241, 157);
+    margin-top: 120px;
+}
+
+.review h1 {
+    margin-left: 70px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+}
+.review .card{
+    margin-left: 80px;
+    margin-bottom: 100px;
+}
+.review .card:hover{
+    scale: 1.04;
+    background-color:rgb(16, 152, 152);
+   
+}
+.contact {
+    background-color: rgb(10, 91, 91);
+    margin-left: 15.4%;
+}
+.contact h6 {
+    margin-left: 70px;
+    color: rgb(241, 241, 157);
+    margin-top: 120px;
+    text-align: center;
+    margin-right: 50px;
+}
+.contact h1 {
+    margin-left: 70px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+    text-align: center;
+    margin-right: 50px;
+}
+.contact .row{
+    justify-content: center;
+    
+    
+}
+.contact .btn{
+    background-color: rgb(15, 165, 155);
+    margin-bottom: 220px;
+}
+.contact .btn:hover{
+    background-color: rgb(20, 238, 223);
+}
